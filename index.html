@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <title>Dmytro Riabtsun</title>
+</head>
+
+<body>
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div class="nav__toggle" id="nav-toggle">
+        <i class='bx bx-menu'></i>
+      </div>
+      <div>
+        <a href="#" class="nav__logo">Рябцун</a>
+      </div>
+      <div class="nav__menu" id="nav-menu">
+        <div class="nav__close" id="nav-close">
+          <i class='bx bx-x'></i>
+        </div>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">Про мене</a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">Навички</a>
+          </li>
+          <!-- <li class="nav__item">
+            <a href="#services" class="nav__link">Послуги</a>
+          </li> -->
+          <li class="nav__item">
+            <a href="#works" class="nav__link">Роботи</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Контакти</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="l-main">
+    <section class="home" id="home">
+      <div class="home__container bd-grid">
+        <div class="home__data">
+          <div class="home__img">
+            <img src="./assets/img/me.jpg" alt="Dmytro Riabtsun">
+          </div>
+          <h1 class="home__title">Рябцун Дмитро</h1>
+          <span class="home__profession">Frontend developer</span>
+          <div class="home__social">
+            <a href="https://www.linkedin.com/in/riabtsun/" target="_blank" class="home__social-link"><i
+                class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/riabtsun" target="_blank" class="home__social-link"><i
+                class='bx bxl-github'></i></a>
+            <a href="https://www.instagram.com/revuchiy/" target="_blank" class="home__social-link"><i
+                class='bx bxl-instagram'></i></a>
+          </div>
+          <a download="" href="./assets/riabtsun_junior_fe.pdf" class="button home__button">Завантажити резюме</a>
+        </div>
+      </div>
+    </section>
+    <section class="about section" id="about">
+      <span class="section-subtitle">Інтро</span>
+      <h2 class="section-title">Про мене</h2>
+
+      <div class="about__container bd-grid">
+        <div class="about__data">
+          <p class="about__description">
+            Привіт, мене звати Дмитро, і я навчаюсь Front-end розробці. Наразі я цікавлюсь всім, що
+            допоможе краще опанувати цю професію.
+            Я закінчив курси Front End Basic та Front End Pro в Hillel IT school.
+            Не дочекаюсь, коли зможу долучитись до команди професіоналів, та стати гарним коллегою
+            та другом.
+          </p>
+          <img src="./assets/img/about.jpg" alt="about" class="about__img">
+        </div>
+        <div>
+          <div class="about__info">
+            <h3 class="about__info-title">Інформація</h3>
+            <div class="about__info-data">
+              <i class='bx bx-user about__info-icon'></i>
+              <span>Рябцун Дмитро</span>
+            </div>
+            <div class="about__info-data">
+              <i class='bx bx-phone about__info-icon'></i>
+              <span>+38 063 217 41 91</span>
+            </div>
+            <div class="about__info-data">
+              <i class='bx bx-envelope about__info-icon'></i>
+              <span>riabtsun@i.ua</span>
+            </div>
+          </div>
+
+          <div class="about__info">
+            <h3 class="about__info-title">Досвід</h3>
+            <div class="about__info-data">
+              <i class='bx bx-medal about__info-icon'></i>
+              <div>
+                <span class="about__info-subtitle">Вивчаю front-end з 2020 року</span>
+                <!-- <span class="about__info-subtitle-small">Expirience</span> -->
+              </div>
+            </div>
+            <!-- <div class="about__info-data">
+              <i class='bx bx-briefcase about__info-icon'></i>
+              <div>
+                <span class="about__info-subtitle">50 projects</span>
+                <span class="about__info-subtitle-small">Complited</span>
+              </div>
+            </div>
+            <div class="about__info-data">
+              <i class='bx bx-support about__info-icon'></i>
+              <div>
+                <span class="about__info-subtitle">Support</span>
+                <span class="about__info-subtitle-small">Online 24/7</span>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="skills section" id="skills">
+      <span class="section-subtitle">Чому саме я</span>
+      <h2 class="section-title">Моя сфера навчання</h2>
+      <div class="skills__container bd-grid">
+        <div class="skills__content">
+          <h3 class="skills__subtitle">
+            <a href="https://dnipro.ithillel.ua/courses/front-end-basic-dnepr" target="_blank">
+              Front-End Basic
+            </a>
+          </h3>
+          <div class="skills__data">
+            <span class="skills__name">Html/CSS</span>
+          </div>
+          <div class="skills__data">
+            <span class="skills__name">SASS</span>
+          </div>
+          <div class="skills__data">
+            <span class="skills__name">Bootstrap</span>
+          </div>
+          <div class="skills__data">
+            <span class="skills__name">SVG</span>
+          </div>
+          <div class="skills__data">
+            <span class="skills__name">DOM</span>
+          </div>
+        </div>
+        <div class="skills__content">
+          <h3 class="skills__subtitle">
+            <a href="https://dnipro.ithillel.ua/courses/front-end-pro-dnepr" target="_blank">Front-End Pro</a>
+          </h3>
+          <div class="skills__data">
+            <span class="skills__name">TypeScript</span>
+          </div>
+          <div class="skills__data">
+            <span class="skills__name">Git</span>
+          </div>
+          <div class="skills__data">
+            <span class="skills__name">MongoDB</span>
+          </div>
+          <div class="skills__data">
+            <span class="skills__name">AJAX</span>
+          </div>
+          <div class="skills__data">
+            <span class="skills__name">jQuery</span>
+          </div>
+          <div class="skills__data">
+            <span class="skills__name">JavaScript</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="education section">
+      <span class="section-subtitle">Кваліфікація</span>
+      <h2 class="section-title">Моя освіта</h2>
+      <div class="education__container bd-grid">
+
+        <div class="education__content">
+
+          <div>
+            <h3 class="education__year">2020-2021</h3>
+            <span class="education__university">Hillel IT School</span>
+          </div>
+
+          <div class="education__time">
+            <span class="education__rounder"></span>
+            <span class="education__line"></span>
+          </div>
+
+          <div>
+            <h3 class="education__race">Пройшов курс</h3>
+            <span class="education__specialty">Front-End Pro</span>
+          </div>
+        </div>
+
+        <div class="education__content">
+
+          <div>
+            <h3 class="education__year">2020</h3>
+            <span class="education__university">Hillel IT School</span>
+          </div>
+
+          <div class="education__time">
+            <span class="education__rounder"></span>
+            <span class="education__line"></span>
+          </div>
+
+          <div>
+            <h3 class="education__race">Пройшов курс</h3>
+            <span class="education__specialty">Front-End Basic</span>
+          </div>
+        </div>
+        <div class="education__content">
+          <div>
+            <h3 class="education__year">2010-2015</h3>
+            <span class="education__university">ДДУВС</span>
+          </div>
+
+          <div class="education__time">
+            <span class="education__rounder"></span>
+            <span class="education__line"></span>
+          </div>
+
+          <div>
+            <h3 class="education__race">Диплом</h3>
+            <span class="education__specialty">Правознавство</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="services section" id="services">
+      <span class="section-subtitle">What i offer</span>
+      <h2 class="section-title">My services</h2>
+
+      <div class="services__container bd-grid">
+        <div class="services__content">
+          <i class='bx bx-code services__icon'></i>
+          <h3 class="services__title">Web design</h3>
+          <p class="services__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda sit
+            odit corporis, eum est rem hic ullam? Natus temporibus id, autem reiciendis
+            commodi maxime aliquam qui omnis nam velit tempore!
+          </p>
+        </div>
+      </div>
+    </section> -->
+    <!-- <section class="project section">
+      <div class="projet__container bd-grid">
+        <div class="project__data">
+          <h2 class="section-title project__title">Do you have a project in mind?</h2>
+          <p class="project__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda molestias
+            corporis dicta repellat iste nesciunt, dignissimos perferendis exercitationem debitis voluptate?
+          </p>
+          <a href="#contact" class="button button__light">Contact me</a>
+        </div>
+        <img src="" alt="project photo">
+      </div>
+    </section> -->
+    <section class="works section" id="works">
+      <span class="section-subtitle">Портфоліо</span>
+      <h2 class="section-title">Мої роботи</h2>
+
+      <div class="works__container bd-grid">
+        <div class="works__img">
+          <img src="./assets/img/hotel_belle_1x.jpg" alt="Grand Hotel website">
+          <div class="works__data">
+            <a href="https://riabtsun.github.io/BestTourPlan/" class="works__link" target="_blank">
+              <i class='bx bx-link-alt'></i>
+            </a>
+            <span class="works__title">Best Tour Plan</span>
+          </div>
+        </div>
+
+        <div class="works__img">
+          <img src="./assets/img/budget.jpg" alt="Cloud Budget website">
+          <div class="works__data">
+            <a href="https://riabtsun.github.io/cloudbudget/" class="works__link" target="_blank">
+              <i class='bx bx-link-alt'></i>
+            </a>
+            <span class="works__title">Cloud Budget</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contant section" id="contact">
+      <span class="section-subtitle">Контакти</span>
+      <h2 class="section-title">Як зв'язатись</h2>
+      <div class="contact__container bd-grid">
+        <form action="" class="contact__form">
+          <div class="contact__inputs">
+            <input type="text" placeholder="Name" class="contact__input">
+            <input type="mail" placeholder="Email" class="contact__input">
+          </div>
+          <input type="text" placeholder="Project" class="contact__input">
+          <textarea name="" id="" cols="0" rows="10" placeholder="Message" class="contact__input"></textarea>
+          <input type="submit" value="Надіслати" class="button contact__button">
+        </form>
+        <div>
+          <div class="contact__info">
+            <h3 class="contact__subtitle">Дзвоніть</h3>
+            <span class="contact__text">063 217 41 91</span>
+          </div>
+
+          <div class="contact__info">
+            <h3 class="contact__subtitle">E-mail</h3>
+            <span class="contact__text">ribtsun@i.ua</span>
+          </div>
+
+          <div class="contact__info">
+            <h3 class="contact__subtitle">Локація</h3>
+            <span class="contact__text">м.Дніпро</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer section">
+    <div class="footer__container bd-grid">
+      <h1 class="footer__title">Дмитро</h1>
+      <p class="footer__description">Мене звати Дмитро, і це моя персональна сторінка, буду радий вашій пропозиції</p>
+      <div class="footer__social">
+        <a href="https://www.linkedin.com/in/riabtsun/" target="_blank" class="footer__link">
+          <i class='bx bxl-linkedin'></i>
+        </a>
+        <a href="https://github.com/riabtsun" target="_blank" class="footer__link">
+          <i class='bx bxl-github'></i>
+        </a>
+        <a href="https://www.instagram.com/revuchiy/" target="_blank" class="footer__link">
+          <i class='bx bxl-instagram'></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
