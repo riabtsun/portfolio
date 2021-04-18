@@ -616,3 +616,6 @@ img{
     height: 90%;
   } */
 }
+a:hover{
+  color: var(--first-color);
+}
